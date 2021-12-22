@@ -8,3 +8,8 @@ Template:     dt-the7
 Version:      1.0.0
 Text Domain:  zyrgon-child
 */
+
+
+.header-space {
+    min-height: 0px;
+}
