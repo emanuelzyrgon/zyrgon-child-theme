@@ -32,3 +32,17 @@ Text Domain:  zyrgon-child
 #footer #footer-email-btn {
     min-height: unset;
 }
+
+.elementor-273 .elementor-element.elementor-element-6f10eab > .elementor-container {
+    margin-right: 0px;
+}
+
+#footer-email-btn {
+    position: absolute;
+    top: -50px;
+    right: 11px
+}
+
+#footer-email-btn svg {
+    width: 34px;
+}
