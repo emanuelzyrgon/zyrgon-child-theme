@@ -10,7 +10,21 @@ Text Domain:  zyrgon-child
 */
 
 
-.header-space {
+.home .header-space {
     min-height: 0px;
     height: 0px!important;
+}
+
+.home .masthead:not(.mixed-header) {
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+#footer a {
+    padding-left: 0px;
 }
