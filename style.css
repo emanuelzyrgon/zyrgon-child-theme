@@ -28,3 +28,7 @@ Text Domain:  zyrgon-child
 #footer a {
     padding-left: 0px;
 }
+
+#footer #footer-email-btn {
+    min-height: unset;
+}
