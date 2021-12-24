@@ -20,10 +20,15 @@ Text Domain:  zyrgon-child
 }
 
 
+section#chic-wa-btn {
+    position: fixed;
+    bottom: 15px;
+    right: 107px;
+    z-index: 99;
+}
 
 
-
-
+/*FOOTER*/
 
 #footer a {
     padding-left: 0px;
