@@ -27,6 +27,9 @@ section#chic-wa-btn {
     z-index: 99;
 }
 
+.chic-card-scale:hover {
+    transform: scale(1.05);
+}
 
 /*FOOTER*/
 
