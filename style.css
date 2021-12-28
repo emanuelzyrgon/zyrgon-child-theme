@@ -35,8 +35,8 @@ section#chic-wa-btn {
     transform: scale(1.05);
 }
 
-.chic-card-scale:hover h2.elementor-heading-title {
-    color: #CC0066;
+.chic-card-scale:hover h2 {
+    color: #CC0066!important;
 }
 
 /*FOOTER*/
