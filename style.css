@@ -9,6 +9,9 @@ Version:      1.0.0
 Text Domain:  zyrgon-child
 */
 
+#main {
+    background-color: #F6F7F9;
+}
 
 .home .header-space {
     min-height: 0px;
