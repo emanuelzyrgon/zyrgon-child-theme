@@ -13,6 +13,10 @@ Text Domain:  zyrgon-child
     background-color: #F6F7F9;
 }
 
+.scroll-top.on {
+    display: none;
+}
+
 .home .header-space {
     min-height: 0px;
     height: 0px!important;
