@@ -17,7 +17,7 @@ Text Domain:  zyrgon-child
     display: none;
 }
 
-.home .header-space {
+.header-space {
     min-height: 0px;
     height: 0px!important;
 }
