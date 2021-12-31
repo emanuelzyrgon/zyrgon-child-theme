@@ -30,6 +30,14 @@ Text Domain:  zyrgon-child
     font-weight: 600;
 }
 
+.page-title-breadcrumbs span.name {
+    text-transform: lowercase;
+}
+
+.page-title-breadcrumbs span.name::first-letter {
+    text-transform: uppercase;
+}
+
 section#chic-wa-btn {
     position: fixed;
     bottom: 15px;
