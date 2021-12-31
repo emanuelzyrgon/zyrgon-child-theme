@@ -22,7 +22,7 @@ Text Domain:  zyrgon-child
     height: 0px!important;
 }
 
-.home .masthead:not(.mixed-header) {
+.masthead:not(.mixed-header) {
     background-color: transparent;
 }
 
