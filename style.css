@@ -26,6 +26,9 @@ Text Domain:  zyrgon-child
     background-color: transparent;
 }
 
+.page-title-breadcrumbs li.current {
+    font-weight: 600;
+}
 
 section#chic-wa-btn {
     position: fixed;
