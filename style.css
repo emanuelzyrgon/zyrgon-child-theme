@@ -30,15 +30,19 @@ Text Domain:  zyrgon-child
     width: 50px;
 }
 
+.top-header .sticky-on .l-to-r-line>li.act>a i.underline, .top-header .sticky-on .l-to-r-line>li.dt-hovered>a i.underline, .top-header .sticky-on .l-to-r-line>li>a:hover i.underline {
+    background-color: #fff;
+}
+
 .page-title-breadcrumbs li.current {
     font-weight: 600;
 }
 
-.page-title-breadcrumbs span.name {
+.page-title-breadcrumbs li span {
     text-transform: lowercase;
 }
 
-.page-title-breadcrumbs span.name::first-letter {
+.page-title-breadcrumbs li span::first-letter {
     text-transform: uppercase;
 }
 
