@@ -26,6 +26,10 @@ Text Domain:  zyrgon-child
     background-color: transparent;
 }
 
+.top-header .l-to-r-line>li.act>a i.underline, .top-header .l-to-r-line>li.dt-hovered>a i.underline, .top-header .l-to-r-line>li>a:hover i.underline {
+    width: 50px;
+}
+
 .page-title-breadcrumbs li.current {
     font-weight: 600;
 }
