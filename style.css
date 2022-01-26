@@ -45,7 +45,7 @@ Text Domain:  zyrgon-child
     width: 81px;
     height: 46px;
     background-image: url('assets/icons/logo_chic_mobile.png');
-    position: absolute;
+    position: absolute!important;
     top: 13px;
     left: 37px;
 }
