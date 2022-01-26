@@ -40,7 +40,7 @@ Text Domain:  zyrgon-child
     background-color: #fff;
 }
 
-.chic_mobile_menu_logo {
+li.chic_mobile_menu_logo {
     width: 81px;
     height: 46px;
     background-image: url('assets/icons/logo_chic_mobile.png');
