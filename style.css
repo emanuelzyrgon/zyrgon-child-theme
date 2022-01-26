@@ -30,6 +30,7 @@ Text Domain:  zyrgon-child
 
 .mobile-main-nav li > a {
     justify-content: center;
+    padding: 0px 0px 70px 0px;
 }
 
 .top-header .l-to-r-line>li.act>a i.underline, .top-header .l-to-r-line>li.dt-hovered>a i.underline, .top-header .l-to-r-line>li>a:hover i.underline {
@@ -44,7 +45,7 @@ Text Domain:  zyrgon-child
     width: 81px;
     height: 46px;
     background-image: url('assets/icons/logo_chic_mobile.png');
-    position: absolute!important;
+    position: absolute;
     top: 13px;
     left: 37px;
 }
