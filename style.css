@@ -90,3 +90,17 @@ section#chic-wa-btn {
 #footer-email-btn svg {
     width: 34px;
 }
+
+.main-nav>li:last-child {
+    display: none;
+}
+
+
+
+/* MOBILE */
+
+@media (max-width: 1024px) {
+    .main-nav>li:last-child {
+        display: block;
+    }
+}
