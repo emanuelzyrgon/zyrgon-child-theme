@@ -44,6 +44,9 @@ Text Domain:  zyrgon-child
     width: 81px;
     height: 46px;
     background-image: url('assets/icons/logo_chic_mobile.png');
+    position: absolute;
+    top: 13px;
+    left: 37px;
 }
 
 .chic_mobile_menu_logo span {
@@ -51,6 +54,14 @@ Text Domain:  zyrgon-child
     white-space: nowrap;
     overflow: hidden;
 }
+
+.dt-close-mobile-menu-icon {
+    top: 27px!important;
+    margin-top: unset;
+    right: 43px!important;
+    left: unset!important;
+}
+
 
 /* Header ends here */
 
