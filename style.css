@@ -13,6 +13,10 @@ Text Domain:  zyrgon-child
     background-color: #F6F7F9;
 }
 
+#footer a {
+    color: #fff;
+}
+
 .scroll-top.on {
     display: none;
 }
