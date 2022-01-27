@@ -63,6 +63,18 @@ Text Domain:  zyrgon-child
     left: unset!important;
 }
 
+.dt-mobile-menu-icon {
+    background-image: url('assets/icons/chic_burger_menu.svg');
+    width: 28px;
+    height: 19px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dt-mobile-menu-icon .lines-button  {
+    display: none;
+}
+
 
 /* Header ends here */
 
