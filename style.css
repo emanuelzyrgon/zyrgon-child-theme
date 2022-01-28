@@ -137,3 +137,10 @@ section#chic-wa-btn {
 
 
 /* MOBILE */
+
+@media(max-width: 1024px) {
+
+    section#chic-wa-btn {
+        right: 37px;
+    }
+}
