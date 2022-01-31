@@ -24,6 +24,10 @@ Text Domain:  zyrgon-child
     height: 0px!important;
 }
 
+#primary-menu {
+    justify-content: space-between;
+}
+
 .main-nav > li > a .menu-text {
     text-transform: uppercase;
 }
@@ -137,10 +141,3 @@ section#chic-wa-btn {
 
 
 /* MOBILE */
-
-@media(max-width: 1024px) {
-
-    section#chic-wa-btn {
-        right: 37px;
-    }
-}
