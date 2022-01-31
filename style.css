@@ -26,6 +26,12 @@ Text Domain:  zyrgon-child
 
 #primary-menu {
     justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.header-bar {
+    max-width: 1286px!important;
+    padding: 0px 20px!important;
 }
 
 .main-nav > li > a .menu-text {
