@@ -173,6 +173,15 @@ section#chic-wa-btn {
     padding-left: 14px;
 }
 
+#chic_mail_contact_form label[for=form-field-chic_form_terms_checkbox] {
+    position: static;
+    pointer-events: auto;
+    cursor: pointer;
+    background-color: unset!important;
+    color: #707070!important;
+    letter-spacing: 0px;
+}
+
 /* Footer starts here */
 
 #footer a {
