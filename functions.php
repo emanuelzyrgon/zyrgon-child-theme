@@ -19,6 +19,7 @@ function scripts_footer(){
 add_action( 'wp_enqueue_scripts', 'custom_scripts' , 50);
 function custom_scripts() {
     wp_enqueue_style( 'main-css', get_stylesheet_directory_uri() . '/style.css' );
+    wp_enqueue_script( 'chic-main-js', get_stylesheet_directory_uri() . '/assets/js/chic-main.js' );
 }
 
 
