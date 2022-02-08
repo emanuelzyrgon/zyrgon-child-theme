@@ -1,6 +1,9 @@
 jQuery(document).ready(function($) {
     $("#chic_mail_contact_form textarea").parent().find("label").css("top", "17px");
 
+    // Adding active class to Blog nav item when user is on single post page
+    $(".single-post #primary-menu li:last-child").addClass("act");
+
     $("#chic_mail_contact_form input").mouseenter(function() {
         var inputlabel = $(this).parent().find($("#chic_mail_contact_form label"));
         inputlabel.css({
