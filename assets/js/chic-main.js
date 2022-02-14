@@ -4,6 +4,7 @@ jQuery(document).ready(function($) {
     // Adding active class to Blog nav item when user is on single post page
     $(".single-post #primary-menu li:last-child").addClass("act");
 
+    // contact form strart here
     $("#chic_mail_contact_form input").mouseenter(function() {
         var inputlabel = $(this).parent().find($("#chic_mail_contact_form label"));
         inputlabel.css({
@@ -59,10 +60,6 @@ jQuery(document).ready(function($) {
         }
     });
 
-    // $("#chic_mail_contact_form input").focus(function() {
-    //     $(this).parent().find($("#chic_mail_contact_form label")).css("color", "red");
-    // });
-
     $("#chic_mail_contact_form input").blur(function() {
         var inputlabel = $(this).parent().find($("#chic_mail_contact_form label"));
         if($(this).val() == "" && !$(this).is(":focus")) {
@@ -90,4 +87,13 @@ jQuery(document).ready(function($) {
             $(this).removeClass('focused');
         }
     });
+    // contact form ends here
+
+    // home page nav card on click got to specific page
+    $(document).on('click', '.chic-home-page-nav-card', function() {
+        if($(window).width() < 1279) {
+            $(this).find('a')[0].click();
+        }
+    });
+
 });
